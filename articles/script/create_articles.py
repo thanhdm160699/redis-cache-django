@@ -8,8 +8,8 @@ def create_articles(num):
     articles = []
     start_time = time.time()
     for i in range(num):
-        title = str(i+5) + get_random_string(50)
-        content = str(i+5) + get_random_string(255)
+        title = str(i+1) + get_random_string(50)
+        content = str(i+1) + get_random_string(255)
         article = Article(title=title, content=content)
         articles.append(article)
 
